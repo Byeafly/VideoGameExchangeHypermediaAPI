@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj": {}
+    "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPICopy\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj": {
+    "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPICopy\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj",
+        "projectUniqueName": "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPICopy\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj",
         "projectName": "VideoGameExchangeHypermediaAPI",
-        "projectPath": "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj",
+        "projectPath": "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPICopy\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI.csproj",
         "packagesPath": "C:\\Users\\zwaring\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\obj\\",
+        "outputPath": "C:\\Workspace\\Neumont\\year3\\DistributedSystems\\VideoGameExchangeHypermediaAPICopy\\VideoGameExchangeHypermediaAPI\\VideoGameExchangeHypermediaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,9 +59,19 @@
               "target": "Package",
               "version": "[8.0.23, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.21, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
