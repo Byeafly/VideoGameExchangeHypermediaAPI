@@ -41,7 +41,7 @@ namespace VideoGameExchangeHypermediaAPI.Controllers
         }
 
         // GET: /users/{id}
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         [ProducesResponseType(typeof(UserReadDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<UserReadDto>> GetUser(int id)
