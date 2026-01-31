@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using VideoGameExchangeHypermediaAPI.Models.VideoGameModels;
+using VideoGameExchangeHypermediaAPI.Models.TradeModels;
 
 namespace VideoGameExchangeHypermediaAPI.Models.UserModels
 {
@@ -34,5 +35,8 @@ namespace VideoGameExchangeHypermediaAPI.Models.UserModels
 
         // Navigation property
         public ICollection<VideoGame> VideoGames { get; set; } = new List<VideoGame>();
+
+        public ICollection<TradeOffer> SentOffers { get; set; } = new List<TradeOffer>();
+        public ICollection<TradeOffer> ReceivedOffers { get; set; } = new List<TradeOffer>();
     }
 }

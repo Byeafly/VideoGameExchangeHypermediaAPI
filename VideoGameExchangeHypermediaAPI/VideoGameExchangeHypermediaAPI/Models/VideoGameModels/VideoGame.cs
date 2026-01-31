@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using VideoGameExchangeHypermediaAPI.Models.TradeModels;
 using VideoGameExchangeHypermediaAPI.Models.UserModels;
 
 namespace VideoGameExchangeHypermediaAPI.Models.VideoGameModels
@@ -46,5 +47,10 @@ namespace VideoGameExchangeHypermediaAPI.Models.VideoGameModels
         // Navigation property
         [ForeignKey(nameof(UserId))]
         public User User { get; set; } = null!;
+
+        // Trade navigation
+        public ICollection<TradeOffer> RequestedInOffers { get; set; } = new List<TradeOffer>();
+        public ICollection<TradeOffer> OfferedInOffers { get; set; } = new List<TradeOffer>();
+
     }
 }

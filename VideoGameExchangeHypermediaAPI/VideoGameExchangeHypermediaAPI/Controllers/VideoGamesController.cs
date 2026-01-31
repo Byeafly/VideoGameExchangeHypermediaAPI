@@ -3,7 +3,7 @@ using VideoGameExchangeHypermediaAPI.Models.VideoGameModels;
 using VideoGameExchangeHypermediaAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace VideoGameExchangeHypermediaAPI.Controllers
+namespace VideoGameExchangeHypermediaAPI.Controllers // I had ChatGPT write the logic for this controller
 {
     [ApiController]
     [Route("/users/{userId}/games")]
